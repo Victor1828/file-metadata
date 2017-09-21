@@ -1,0 +1,10 @@
+body {
+  background-color: #E57373;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 20px;
+}

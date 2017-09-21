@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 File Meatadata Microservice
+  h2 User stories:
+  ul
+    li I can submit a FormData object that includes a file upload.
+    li When I submit something, I will receive the file size in bytes within the JSON response.
+  ul
+  h2 Expected output:
+  code {size: 564557}
+  h2 Submit a file to view it's filesize:  
+  form(action="/file-size" method="post" enctype="multipart/form-data")
+    input(type="file" name="file")
+    button(type="submit") Upload
